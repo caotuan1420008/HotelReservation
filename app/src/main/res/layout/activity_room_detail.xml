@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.an.hotel.RoomDetailActivity">
+
+
+    <EditText
+        android:id="@+id/lblName1"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/lblName"
+        android:layout_marginEnd="14dp"
+        android:focusable="false"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:text="Tên phòng:"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="271dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp"
+        android:text="Chỉnh sửa" />
+
+    <TextView
+        android:id="@+id/lblInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="175dp"
+        android:text="Internet:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lblInternet1"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fab"
+        android:layout_alignTop="@+id/lblInternet"
+        android:focusable="false"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lblCap1"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fab"
+        android:layout_alignTop="@+id/lblCap"
+        android:focusable="false"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lblPhone1"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fab"
+        android:layout_alignTop="@+id/lblPhone"
+        android:focusable="false"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="129dp"
+        android:text="Điện thoại bàn"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblCap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="220dp"
+        android:text="Truyền hình cáp:"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="163dp"
+        android:text="Đến:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lblBed1"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/fab"
+        android:layout_alignTop="@+id/lblBed"
+        android:focusable="false"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lblTo1"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lblInternet1"
+        android:focusable="false"
+        android:layout_alignTop="@+id/lblTo"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblBed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:text="Số giường:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lblFrom1"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/lblFrom"
+        android:layout_marginStart="49dp"
+        android:focusable="false"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lblFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:text="Từ: "
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/lblBuilding1"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/lblBuilding"
+        android:layout_marginStart="90dp"
+        android:focusable="false"
+        android:textSize="20dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="22dp"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <TextView
+        android:id="@+id/lblBuilding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:text="Tòa nhà:"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnImg"
+        android:layout_width="271dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="79dp"
+        android:text="Hình ảnh" />
+
+
+</RelativeLayout>

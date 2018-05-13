@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="location_prompt">Choose a country</string>
+    <string name="building_name">Tòa nhà</string>
+
+    <string-array name="location_arrays">
+        <item>Tòa nhà A</item>
+        <item>Tòa nhà B</item>
+        <item>Tòa nhà C</item>
+    </string-array>
+
+    <string name="bed_prompt">Choose a country</string>
+    <string-array name="bed_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
